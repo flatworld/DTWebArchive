@@ -274,7 +274,7 @@
 		A7697CC61410CC6400F25129 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0630;
 			};
 			buildConfigurationList = A7697CC91410CC6400F25129 /* Build configuration list for PBXProject "DTWebArchive" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -363,10 +363,6 @@
 		A743531314867ACD00F4C766 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-				);
 				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/DTWebArchive.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -382,10 +378,6 @@
 		A743531414867ACD00F4C766 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-				);
 				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/DTWebArchive.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
